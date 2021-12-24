@@ -13,7 +13,7 @@ def test_query():
 def element_parent_page(html):
     """ """
     elements = ElementPageParent(html)
-    data_page = elements.get_parent_page()
+    data_page = elements.get_parent_element()
     print(data_page)
 
 if __name__ == '__main__':

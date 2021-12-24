@@ -14,7 +14,7 @@ class HttpQuery:
     def get_page_html(self):
         """ """
 
-        if seld.req.status_code == 200:
+        if self.req.status_code == 200:
             return self.req.text
         else:
             print('Server status code: ', self.req.status_code)
