@@ -34,7 +34,7 @@ class ElementPageParent(ElementPage):
 
 class ElementPageChild(ElementPage):
  
-    def get_clild_element(self):
+    def get_child_element(self):
         """ """
         abc = self.soup.find('div', class_='')
 
